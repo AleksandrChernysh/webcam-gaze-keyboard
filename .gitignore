@@ -1,0 +1,16 @@
+# Recorded calibration data and results (contain the user's face/eye features)
+data/*
+!data/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Models: the trained gaze model is per-user; the MediaPipe model is downloaded separately
+models/*
+!models/.gitkeep
+
+# Python / OS
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+__MACOSX/
